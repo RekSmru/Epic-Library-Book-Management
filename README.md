@@ -1,16 +1,116 @@
-# React + Vite
+# Epic Library 📚
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Epic Library is a simple React-based web application that allows users to browse books by genre, view popular books, search books by title or author, and add new books. The project demonstrates React routing, component structure, and responsive UI design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Home Page**
 
-## React Compiler
+  * Welcome message
+  * Browse books by **Genre**
+  * View **Popular Books** with ratings
+  * Horizontal scroll for genres and popular books
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Browse Books Page**
 
-## Expanding the ESLint configuration
+  * Search books by **Title or Author**
+  * Filter books by **Genre**
+  * Display books with image, title, author, and rating
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Book Details Page**
+
+  * Shows full details of a selected book
+
+* **Add Book Page**
+
+  * Allows users to add new books with:
+
+    * Title
+    * Author
+    * Genre
+    * Image
+    * Rating
+    * Description
+
+* **404 Page**
+
+  * Displays a **Page Not Found** message
+  * Shows the invalid route URL
+  * Includes a link back to the **Home page**
+
+## Technologies Used
+
+* React
+* React Router
+* JavaScript (ES6)
+* CSS
+* Vite
+
+## Project Structure
+
+```
+src
+│
+├── components
+│   ├── Header.jsx
+│   ├── BookCard.jsx
+│   └── Layout.jsx
+│
+├── pages
+│   ├── Home.jsx
+│   ├── BrowseBooks.jsx
+│   ├── BookDetails.jsx
+│   ├── AddBook.jsx
+│   └── NotFound.jsx
+│
+├── data
+│   └── booksData.js
+│
+├── img
+│   └── genre images
+│
+├── App.jsx
+└── main.jsx
+```
+
+## Installation
+
+1. Clone the repository
+
+```
+git clone https://github.com/yourusername/epic-library.git
+```
+
+2. Navigate to the project folder
+
+```
+cd epic-library
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run the development server
+
+```
+npm run dev
+```
+
+5. Open in browser
+
+```
+http://localhost:5173
+```
+
+## Screens Included
+
+* Home Page
+* Browse Books Page
+* Book Details Page
+* Add Book Page
+* 404 Page Not Found
+
+

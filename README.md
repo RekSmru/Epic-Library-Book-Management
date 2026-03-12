@@ -89,6 +89,8 @@ cd Epic-Library-Book-Management
 
 ```
 npm install
+npm install react-router-dom
+
 ```
 
 4. Run the development server

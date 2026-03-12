@@ -87,7 +87,7 @@ author:"Walter Isaacson",
 category:"Biography",
 rating:4.7,
 description:"The inspiring life of Apple co-founder Steve Jobs.",
-image:"https://picsum.photos/200/300?random=9"
+image:"https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781610694971.jpg"
 },
 
 {
@@ -97,7 +97,7 @@ author:"Ashlee Vance",
 category:"Biography",
 rating:4.6,
 description:"The story of a visionary entrepreneur.",
-image:"https://picsum.photos/200/300?random=10"
+image:"https://m.media-amazon.com/images/I/81SlrVsShvL._AC_UF1000,1000_QL80_.jpg"
 },
 
 {
@@ -107,7 +107,7 @@ author:"Michelle Obama",
 category:"Biography",
 rating:4.8,
 description:"The personal memoir of former First Lady Michelle Obama.",
-image:"https://picsum.photos/200/300?random=11"
+image:"https://m.media-amazon.com/images/I/81cJTmFpG-L._AC_UF1000,1000_QL80_.jpg"
 },
 
 {
@@ -231,11 +231,11 @@ image:"https://picsum.photos/200/300?random=23"
 {
   id: 24,
   title: "Love in Paris",
-  author: "Sophia Bennett",
+  author: "Alvaro Figares ",
   category: "Romance",
   rating: 4.5,
   description: "Two strangers meet in Paris and discover love in the most unexpected way.",
-  image: "https://picsum.photos/200/300?random=24"
+  image: "https://m.media-amazon.com/images/I/61pR3rrmVlL._AC_UF1000,1000_QL80_.jpg"
 },
 {
   id: 25,
@@ -248,12 +248,12 @@ image:"https://picsum.photos/200/300?random=23"
 },
 {
   id: 26,
-  title: "Forever Yours",
-  author: "Liam Carter",
+  title: "Forever Yours: From the Start Till the End",
+  author: "Notion Press",
   category: "Romance",
   rating: 4.4,
   description: "A heartfelt story about love, trust, and second chances.",
-  image: "https://picsum.photos/200/300?random=19"
+  image: "https://i5.walmartimages.com/seo/Forever-Yours-From-the-Start-Till-the-End-Paperback-9781638329060_2c8af155-5075-4a8b-9a20-e4ced1fb8291.e661b4a8971ca856296e1cb12ce29722.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
 }
 
 ];

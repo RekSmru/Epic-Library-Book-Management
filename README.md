@@ -9,13 +9,13 @@ Epic Library is a simple React-based web application that allows users to browse
   * Welcome message
   * Browse books by **Genre**
   * View **Popular Books** with ratings
-  * Horizontal scroll for genres and popular books
+  
 
 * **Browse Books Page**
 
   * Search books by **Title or Author**
   * Filter books by **Genre**
-  * Display books with image, title, author, and rating
+  
 
 * **Book Details Page**
 
@@ -28,9 +28,6 @@ Epic Library is a simple React-based web application that allows users to browse
     * Title
     * Author
     * Genre
-    * Image
-    * Rating
-    * Description
 
 * **404 Page**
 
@@ -78,13 +75,14 @@ src
 1. Clone the repository
 
 ```
-git clone https://github.com/yourusername/epic-library.git
+git clone https://github.com/RekSmru/Epic-Library-Book-Management.git
 ```
 
 2. Navigate to the project folder
 
 ```
-cd epic-library
+cd Epic-Library-Book-Management
+
 ```
 
 3. Install dependencies

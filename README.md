@@ -2,7 +2,7 @@
 
 Epic Library is a simple React-based web application that allows users to browse books by genre, view popular books, search books by title or author, and add new books. The project demonstrates React routing, component structure, and responsive UI design.
 
-![Epic Library] (./screenshot/epicLibrary.png)
+![Epic Library](./screenshot/epicLibrary.png)
 
 ## Features
 
